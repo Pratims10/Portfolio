@@ -3,6 +3,11 @@
     font-size: 17px;
 }
 
+#home {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 244, 244, 1) 100%);
+}
+
 h2 {
     font-size: 44px;
 }
@@ -42,6 +47,37 @@ a img:hover {
     border-right: 0;
     border-top: 0;
     border-left: 0;
+}
+
+table tr {
+    height: 40px;
+    box-shadow: 1px 2px 2px red;
+    border-radius: 0px 10px;
+    transition: all .3s linear;
+}
+
+table tr:hover {
+    box-shadow: 2px 4px 4px red;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
 }
 
 
