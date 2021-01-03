@@ -1,11 +1,35 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
+    /*   background-color: rgb(65, 58, 58);*/
+    text-emphasis-color: white;
+}
+
+body {
+    background-image: url(Images/background1.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 #home {
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 244, 244, 1) 100%);
+    background: rgb(59, 9, 9);
+    background: radial-gradient(circle, rgb(66, 58, 58) 0%, rgb(14, 9, 9) 100%);
+    box-shadow: 0px 0px 5px white;
+    transition: box-shadow .4s linear;
+}
+
+#home:hover {
+    box-shadow: 0px 0px 15px white;
+}
+
+.container div span a {
+    text-decoration: none;
+    color: white;
+    transition: color .3s linear;
+}
+
+.container div span a:hover {
+    color: blue;
 }
 
 h2 {
@@ -14,10 +38,11 @@ h2 {
 
 .navbar div ul li a {
     transition: all .4s ease;
+    background-color: rgb(34, 34, 37);
 }
 
 .navbar div ul li a:hover {
-    background-color: rgb(34, 34, 87);
+    background-color: rgb(3, 3, 19);
 }
 
 navbar-nav>li {
@@ -26,16 +51,26 @@ navbar-nav>li {
 
 a i,
 img {
+    color: white;
     transition: all .3s linear;
 }
 
-a img:hover {
-    filter: hue-rotate(180deg);
+a i:hover,
+img:hover {
+    color: teal;
 }
 
 .border_fade_right {
     border: 1.5px solid;
-    border-image: linear-gradient(0deg, white, black 50%, white) 1;
+    border-image: linear-gradient(0deg, rgb(43, 40, 40), white 50%, rgb(65, 58, 58)) 1;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+}
+
+.border_fade_right_top {
+    border: 1.5px solid;
+    border-image: linear-gradient(0deg, rgb(43, 40, 40), white 100%, rgb(65, 58, 58)) 1;
     border-bottom: 0;
     border-top: 0;
     border-left: 0;
@@ -43,22 +78,41 @@ a img:hover {
 
 .border_fade_bottom {
     border: 1.5px solid;
-    border-image: linear-gradient(90deg, white, black 50%, white) 1;
+    border-image: linear-gradient(90deg, rgb(65, 58, 58), white 50%, rgb(65, 58, 58)) 1;
     border-right: 0;
     border-top: 0;
     border-left: 0;
 }
 
+.ellipse::after {
+    content: '';
+    bottom: -1;
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: radial-gradient(ellipse at center, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.ellipseup::before {
+    content: '';
+    bottom: -1;
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: radial-gradient(ellipse at center, #ffffff 0%, rgba(255, 255, 255, 0) 70%);
+}
+
 table tr {
     height: 40px;
-    box-shadow: 1px 2px 2px red;
+    /*box-shadow: 1px 2px 2px white;*/
     border-radius: 0px 10px;
     transition: all .3s linear;
 }
 
-table tr:hover {
-    box-shadow: 2px 4px 4px red;
-}
+
+/*table tr:hover {
+    box-shadow: 2px 4px 4px white;
+}*/
 
 .header {
     position: fixed;

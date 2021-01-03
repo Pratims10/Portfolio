@@ -27,7 +27,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: rgb(71, 62, 129);
+    background-color: rgb(255, 255, 255);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -51,9 +51,9 @@ body {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -13px;
+    right: -12px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid blue;
     top: 19px;
     border-radius: 50%;
     z-index: 1;
@@ -86,7 +86,7 @@ body {
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent rgb(0, 0, 0);
+    border-color: transparent transparent transparent white;
 }
 
 
@@ -99,10 +99,10 @@ body {
     top: 22px;
     width: 0;
     z-index: 1;
-    left: 30px;
+    left: 31px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(0, 0, 0) transparent transparent;
+    border-color: transparent white transparent transparent;
 }
 
 
@@ -117,10 +117,11 @@ body {
 
 .content1 {
     padding: 15px;
-    background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 25%, rgb(241, 198, 198) 100%);
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(66, 59, 59) 0%, rgb(0, 0, 0) 100%);
     position: relative;
-    border-radius: 5px;
+    border-radius: 8px;
+    color: white;
 }
 
 
@@ -147,7 +148,7 @@ body {
     /* Make sure all circles are at the same spot */
     .left1::after,
     .right1::after {
-        left: 20px;
+        left: 17px;
     }
     /* Make all right containers behave like the left ones */
     .right1 {
