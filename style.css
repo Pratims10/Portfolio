@@ -3,6 +3,33 @@
     font-size: 17px;
     /*   background-color: rgb(65, 58, 58);*/
     text-emphasis-color: white;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.white {
+    color: white;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(132, 132, 238);
+    transition: color .3s linear;
+}
+
+p a:hover {
+    text-decoration: none;
+    color: blue;
 }
 
 body {
@@ -11,14 +38,52 @@ body {
     background-attachment: fixed;
 }
 
-#home {
+.skill div img {
+    filter: invert(1);
+    background: #ffba75;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.skill div+div h5 {
+    color: rgb(147, 161, 141);
+}
+
+#home,
+.skills_main {
     background: rgb(59, 9, 9);
-    background: radial-gradient(circle, rgb(66, 58, 58) 0%, rgb(14, 9, 9) 100%);
+    background: radial-gradient(circle, rgb(66, 58, 58) 0%, rgb(31, 24, 24) 100%) !important;
     box-shadow: 0px 0px 5px white;
     transition: box-shadow .4s linear;
 }
 
+#education_main {
+    background: rgb(59, 9, 9);
+    background: radial-gradient(circle, rgb(67, 67, 75) 0%, rgb(28, 26, 31) 100%) !important;
+    box-shadow: 0px 0px 5px white;
+    transition: box-shadow .4s linear;
+}
+
+.content2 {
+    background: rgb(31, 22, 22);
+    /*background: radial-gradient(circle, rgb(66, 58, 58) 0%, rgb(31, 24, 24) 100%) !important;*/
+    box-shadow: 0px 0px 2px white;
+    transition: box-shadow .4s linear;
+}
+
 #home:hover {
+    box-shadow: 0px 0px 15px white;
+}
+
+.content1 {
+    background: rgb(59, 9, 9);
+    background: radial-gradient(circle, rgb(61, 58, 58) 0%, rgb(31, 28, 28) 100%) !important;
+    box-shadow: 0px 0px 2px white;
+    transition: box-shadow .4s linear;
+}
+
+.content1:hover {
     box-shadow: 0px 0px 15px white;
 }
 
@@ -57,12 +122,12 @@ img {
 
 a i:hover,
 img:hover {
-    color: teal;
+    color: blue;
 }
 
 .border_fade_right {
     border: 1.5px solid;
-    border-image: linear-gradient(0deg, rgb(43, 40, 40), white 50%, rgb(65, 58, 58)) 1;
+    border-image: linear-gradient(0deg, rgb(43, 40, 40), white 0%, rgb(65, 58, 58)) 1;
     border-bottom: 0;
     border-top: 0;
     border-left: 0;
