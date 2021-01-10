@@ -1,0 +1,8 @@
+.heading1 span {
+    border: 1px solid rgb(88, 219, 219);
+    border-radius: 4px;
+    padding: 3px 6px;
+    color: rgb(40, 178, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

@@ -66,3 +66,36 @@ function myFunction() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+//CONTACT FORM
+function namechange() {
+    var Name = document.getElementById('name')
+    if (Name.value.length != 0)
+        document.getElementById('namelabel').classList.add('notempty')
+    else
+        document.getElementById('namelabel').classList.remove('notempty')
+}
+
+function emailchange() {
+    var Email = document.getElementById('email')
+    if (Email.value.length != 0)
+        document.getElementById('emaillabel').classList.add('notempty')
+    else
+        document.getElementById('emaillabel').classList.remove('notempty')
+}
+
+function subjectchange() {
+    var Subject = document.getElementById('subject')
+    if (Subject.value.length != 0) {
+        document.getElementById('subjectlabel').classList.add('notempty')
+    } else
+        document.getElementById('subjectlabel').classList.remove('notempty')
+}
+
+function messagechange() {
+    var Message = document.getElementById('message')
+    if (Message.value.length != 0) {
+        document.getElementById('messagelabel').classList.add('notempty')
+    } else
+        document.getElementById('messagelabel').classList.remove('notempty')
+}
