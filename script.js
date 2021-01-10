@@ -1,3 +1,9 @@
+$(function() {
+    AOS.init({
+        duration: 800,
+    });
+});
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -98,4 +104,26 @@ function messagechange() {
         document.getElementById('messagelabel').classList.add('notempty')
     } else
         document.getElementById('messagelabel').classList.remove('notempty')
+}
+
+
+//SENDING EMAIL
+function sendmail() {
+    let msg = document.getElementById('name').value + "\n"
+    msg += document.getElementById('message').value
+    Email.send({
+            Host: "smtp.gmail.com",
+            Username: "inquizitors10@gmail.com",
+            Password: "",
+            To: 'pratimsarkar23@gmail.com',
+            From: document.getElementById('email').value,
+            Subject: document.getElementById('subject').value,
+            Body: msg,
+        })
+        .then(function(message) {
+            alert("Mail sent successfully")
+        })
+        .catch(function(message) {
+            alert("Not sent")
+        });
 }

@@ -19,6 +19,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -64,7 +67,7 @@
     </div>
     <main>
         <div id="home" class="skills_main">
-            <div style="height: 172px;">
+            <div style="height: 100px;">
 
             </div>
             <div>
@@ -76,18 +79,18 @@
                 <br>
                 <div class="container" style="max-width: 100%; border-radius: 8px;">
                     <div class="row">
-                        <div class="col-md-5 col-lg-4 border_fade_right">
+                        <div class="col-md-5 col-lg-4 border_fade_right" data-aos="fade-right">
                             <div style="text-align: center;">
                                 <br>
-                                <img class="w3-animate-left" src="Images/Demo_profile_pic.jpg" alt="profile_picture" width="250px" height="250px" style="border-radius: 50%; border:1px solid">
-                                <div class="w3-animate-left">
+                                <img src="Images/Avatar.jpeg" alt="profile_picture" width="250px" height="250px" style="border-radius: 50%; border:1px solid">
+                                <div>
 
                                     <h1 style="color: white;" class="typewrite" data-period="500" data-type='[ "Hi, I am Pratim Sarkar.", "A competitive programmer", "Also a Web Developer"]'>
                                         <span class="wrap" style="background-color: black;"></span>
                                     </h1>
 
                                 </div>
-                                <p class="w3-animate-left">
+                                <p>
                                     <a href="https://www.linkedin.com/in/pratim-sarkar123/"><i class="fa fa-linkedin" style="font-size: 25px;vertical-align: text-bottom;"></i></a> &nbsp;
                                     <a href="https://github.com/Pratims10"><i class="fa fa-github" style="font-size: 25px;vertical-align: text-bottom;"></i></a> &nbsp;
                                     <a href="mailto:pratimsarkar23@gmail.com"><i class="material-icons" style="font-size:23px;vertical-align: text-bottom;">&#xe0be;</i></a> &nbsp;
@@ -98,18 +101,18 @@
                             <div class="container ellipseup" style="width: 100%;">
                                 <div class="row" style="border: 0px solid white; height: 50px;">
                                     <span class="col-6 border_fade_right_top" style="color: white; text-align: center; padding-top: 10px;"><a href="#">Download CV</a></span>
-                                    <span class="col-6" style="color: white; text-align: center; padding-top: 10px;"><a href="#">Contact me</a></span>
+                                    <span class="col-6" style="color: white; text-align: center; padding-top: 10px;"><a href="#contact">Contact me</a></span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-7 col-lg-8" style="text-align: center;">
                             <div class="container" style="height: 100%;">
                                 <div class="row" style="height: 100%;">
-                                    <div class="col-lg-6 border_fade_right">
+                                    <div class="col-lg-6 border_fade_right" data-aos="fade-down">
                                         <table style="height: 100%;">
                                             <tr>
                                                 <td>
-                                                    <p class="w3-animate-right w3-animate-opacity" style="text-align: justify; color: white;">
+                                                    <p style="text-align: justify; color: white;">
                                                         I am Pratim Sarkar, a 4th year student pursuing B.Tech in Computer Science & Engineering. I have great interest in Competetive Programming and different fields of Computer Science. I am proficient in Data Structures, Algorithms and also familiar with
                                                         core subjects of Computer Science like DBMS, Operating Systems and Computer Networks. I have also done multiple projects in the field of web development. I am a 5-star coder on
                                                         <a href="https://www.codechef.com/users/in_sane19">Codechef</a> and an Expert on <a href="https://codeforces.com/profile/pratims10">Codeforces</a>. I have been doing Competetive coding for over 2
@@ -119,7 +122,7 @@
                                             </tr>
                                         </table>
                                     </div>
-                                    <div class="col-lg-6" style="text-align: center;">
+                                    <div class="col-lg-6" style="text-align: center;" data-aos="fade-left">
                                         <table style="height: 100%; width: 100%;">
                                             <tr>
                                                 <td>
@@ -161,7 +164,7 @@
                 <br>
                 <div class="timeline1">
                     <div class="container1 left1">
-                        <div class="cp">
+                        <div class="cp" data-aos="fade-right">
                             <h5>2017-2021</h5>
                             <b>KALYANI GOVERNMENT ENGINEERING COLLEGE</b>
                             <br>
@@ -171,8 +174,8 @@
                             <p><i>CGPA: 9.28/10 (Upto 6th Semester)</i></p>
                         </div>
                     </div>
-                    <div class=" container1 right1 ">
-                        <div class="cp">
+                    <div class=" container1 right1">
+                        <div class="cp" data-aos="fade-left">
                             <h5>2015-2017</h5>
                             <b>ST. XAVIER'S INSTITUTION</b>
                             <br>
@@ -182,7 +185,7 @@
                         </div>
                     </div>
                     <div class="container1 left1 ">
-                        <div class="cp">
+                        <div class="cp" data-aos="fade-right">
                             <h5>Upto 2015</h5>
                             <b>ST. XAVIER'S INSTITUTION</b>
                             <br>
@@ -209,30 +212,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6" style="text-align: center;">
-                        <div class="container">
-                            <div class="row skill">
-                                <div class="col-2 white"><img src="Images/Coding.png" alt="Icon" style="max-height: 45px; width: 45px;"></div>
-                                <div class="col-10 white" style="text-align: left;">
+                        <div class=" container ">
+                            <div class="row skill" data-aos="fade-right">
+                                <div class="col-2 white "><img src="Images/Coding.png " alt="Icon " style="max-height: 45px; width: 45px; "></div>
+                                <div class="col-10 white " style="text-align: left; ">
                                     <h5>Data Structures & Algorithms</h5>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minima sed distinctio? Eius, odio similique fugit repellat ipsam voluptate natus rerum. Veritatis ipsam impedit a saepe voluptatibus quia doloribus optio!</p>
                                 </div>
                             </div>
                         </div>
                         <br>
-                        <div class="container">
-                            <div class="row skill">
-                                <div class="col-2 white"><img src="Images/HTML.png" alt="Icon" style="max-height: 45px; width: 45px;"></div>
-                                <div class="col-10 white" style="text-align: left;">
+                        <div class="container ">
+                            <div class="row skill" data-aos="fade-right">
+                                <div class="col-2 white "><img src="Images/HTML.png" alt="Icon " style="max-height: 45px; width: 45px; "></div>
+                                <div class="col-10 white " style="text-align: left; ">
                                     <h5>HTML, CSS & JS</h5>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minima sed distinctio? Eius, odio similique fugit repellat ipsam voluptate natus rerum. Veritatis ipsam impedit a saepe voluptatibus quia doloribus optio!</p>
                                 </div>
                             </div>
                         </div>
                         <br>
-                        <div class="container">
-                            <div class="row skill">
-                                <div class="col-2 white"><img src="Images/React_logo.png" alt="Icon" style="max-height: 45px; width: 45px; "></div>
-                                <div class="col-10 white" style="text-align: left;">
+                        <div class="container ">
+                            <div class="row skill" data-aos="fade-right">
+                                <div class="col-2 white "><img src="Images/React_logo.png" alt="Icon " style="max-height: 45px; width: 45px; "></div>
+                                <div class="col-10 white " style="text-align: left; ">
                                     <h5>ReactJS</h5>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minima sed distinctio? Eius, odio similique fugit repellat ipsam voluptate natus rerum. Veritatis ipsam impedit a saepe voluptatibus quia doloribus optio!</p>
                                 </div>
@@ -240,11 +243,11 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6" style="text-align: center;">
-                        <div class="container">
-                            <div class="row skill">
-                                <div class="col-2 white"><img src="Images/C++.png" alt="Icon" style="max-height: 45px; width: 45px;"></div>
-                                <div class="col-10 white" style="text-align: left;">
+                    <div class="col-md-6 " style="text-align: center; ">
+                        <div class="container ">
+                            <div class="row skill" data-aos="fade-left">
+                                <div class="col-2 white "><img src="Images/C++.png " alt="Icon " style="max-height: 45px; width: 45px; "></div>
+                                <div class="col-10 white " style="text-align: left; ">
                                     <h5>C++</h5>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minima sed distinctio? Eius, odio similique fugit repellat ipsam voluptate natus rerum. Veritatis ipsam impedit a saepe voluptatibus quia doloribus optio!</p>
                                 </div>
@@ -252,9 +255,9 @@
                         </div>
                         <br>
                         <div class="container">
-                            <div class="row skill">
-                                <div class="col-2 white"><img src="Images/database.png" alt="Icon" style="max-height: 45px; width: 45px; "></div>
-                                <div class="col-10 white" style="text-align: left;">
+                            <div class="row skill" data-aos="fade-left">
+                                <div class="col-2 white "><img src="Images/database.png " alt="Icon " style="max-height: 45px; width: 45px; "></div>
+                                <div class="col-10 white " style="text-align: left; ">
                                     <h5>DataBase Management System</h5>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minima sed distinctio? Eius, odio similique fugit repellat ipsam voluptate natus rerum. Veritatis ipsam impedit a saepe voluptatibus quia doloribus optio!</p>
                                 </div>
@@ -262,9 +265,9 @@
                         </div>
                         <br>
                         <div class="container">
-                            <div class="row skill">
-                                <div class="col-2 white"><img src="Images/aspdotnet.png" alt="Icon" style="height: 45px; width: 50px; "></div>
-                                <div class="col-10 white" style="text-align: left;">
+                            <div class="row skill" data-aos="fade-left">
+                                <div class="col-2 white "><img src="Images/aspdotnet.png " alt="Icon " style="height: 45px; width: 50px; "></div>
+                                <div class="col-10 white " style="text-align: left; ">
                                     <h5>ASP.NET</h5>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam minima sed distinctio? Eius, odio similique fugit repellat ipsam voluptate natus rerum. Veritatis ipsam impedit a saepe voluptatibus quia doloribus optio!</p>
                                 </div>
@@ -276,8 +279,8 @@
             <br>
 
 
-            <div id="education_main">
-                <div id="cp" style="height: 100px;"></div>
+            <div class="education_main">
+                <div id="cp" style="height: 100px; "></div>
 
                 <!--CP SECTION-->
                 <div class="main_content">
@@ -287,42 +290,41 @@
                     </div>
                 </div>
                 <br>
-                <div style="max-width: 90%;" class="container">
+                <div style="max-width: 90%; " class="container ">
                     <div class="row ">
-                        <div class="col-lg-4">
-                            <div class="cp1" style="text-align: center;">
+                        <div class="col-lg-4 ">
+                            <div class="cp1 " style="text-align: center;" data-aos="fade-up">
                                 <img src="Images/Codechef_logo_1.png " alt="Codechef_logo.png " width="200px " style="padding-top: 10px; ">
                                 <br>
-                                <div class="container" style="max-width: 100%;">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-6 col-sm-12">
-                                            <span>Profile: <a href="https://www.codechef.com/users/in_sane19" target="_blank">in_sane19</a></span>
+                                <div class="container " style="max-width: 100%; ">
+                                    <div class="row ">
+                                        <div class="col-lg-12 col-md-6 col-sm-12 ">
+                                            <span>Profile: <a href="https://www.codechef.com/users/in_sane19 " target="_blank ">in_sane19</a></span>
                                         </div>
-                                        <div class="col-lg-12 col-md-6 col-sm-12">
-                                            <span>Highest Rating: <span style="background: orange; padding: 0px 3px;">5★</span> (2038)</span>
+                                        <div class="col-lg-12 col-md-6 col-sm-12 ">
+                                            <span>Highest Rating: <span style="background: orange; padding: 0px 3px; ">5★</span> (2038)</span>
                                         </div>
                                     </div>
                                 </div>
                                 <span>
                                     Country Rank: 2260 / 224342
                                 </span>
-                                <div class="profiles" style="text-align: center;">
-                                    <img src="Images/Codechef_graph.png" class="image" alt="Codechef_graph.png" height="200px" width="340px" style="box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.6), 0 0 1rem rgba(0, 0, 0, 0.6); border-radius: 5px;">
-                                    <div class="middle">
+                                <div class="profiles " style="text-align: center; ">
+                                    <img src="Images/Codechef_graph.png " class="image " alt="Codechef_graph.png " height="200px " width="340px " style="box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.6), 0 0 1rem rgba(0, 0, 0, 0.6); border-radius: 5px; ">
+                                    <div class="middle ">
                                         <br><br><br>
                                         <h3>in_sane19</h3>
                                         <br>
-                                        <span style="background-color: orange;">★</span>
-                                        <span style="background-color: orange;">★</span>
-                                        <span style="background-color: orange;">★</span>
-                                        <span style="background-color: orange;">★</span>
-                                        <span style="background-color: orange;">★</span>
+                                        <span style="background-color: orange; ">★</span>
+                                        <span style="background-color: orange; ">★</span>
+                                        <span style="background-color: orange; ">★</span>
+                                        <span style="background-color: orange; ">★</span>
+                                        <span style="background-color: orange; ">★</span>
                                     </div>
                                     <br>
                                     <br>
-                                    <div class="progress" style="width:90%; margin-left: 5%; height: 24px; border-radius: 12px;">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:99%;
-                                        border: 4px solid white; border-radius: 12px 0px 0px 12px; height: 24px">
+                                    <div class="progress " style="width:90%; margin-left: 5%; height: 24px; border-radius: 12px; ">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning " style="width:99%; border: 4px solid white; border-radius: 12px 0px 0px 12px; height: 24px ">
                                             <span>Ranked top 99 percentile in India</span>
                                         </div>
                                     </div>
@@ -331,72 +333,70 @@
                         </div>
 
                         <!--CODEFORCES PROFILE-->
-                        <div class="col-lg-4">
-                            <div class="cp1" style="text-align: center;">
+                        <div class="col-lg-4 ">
+                            <div class="cp1 " style="text-align: center;" data-aos="fade-up">
                                 <br>
-                                <img src="Images/Codeforces_logo1.png " alt="Codeforces_logo.png " height="50px" width="250px" style="padding-top: 5px; padding-bottom: 10px; ">
-                                <div style="height: 11px;"></div>
-                                <div class="container" style="max-width: 100%;">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-6 col-sm-12">
-                                            <span>Profile: <a href="https://codeforces.com/profile/pratims10" target="_blank">pratims10</a></span>
+                                <img src="Images/Codeforces_logo1.png " alt="Codeforces_logo.png " height="50px " width="250px " style="padding-top: 5px; padding-bottom: 10px; ">
+                                <div style="height: 11px; "></div>
+                                <div class="container " style="max-width: 100%; ">
+                                    <div class="row ">
+                                        <div class="col-lg-12 col-md-6 col-sm-12 ">
+                                            <span>Profile: <a href="https://codeforces.com/profile/pratims10 " target="_blank ">pratims10</a></span>
                                         </div>
-                                        <div class="col-lg-12 col-md-6 col-sm-12">
-                                            <span>Highest Rating: <span style="color: blue;">Expert (1805)</span></span>
+                                        <div class="col-lg-12 col-md-6 col-sm-12 ">
+                                            <span>Highest Rating: <span style="color: blue; ">Expert (1805)</span></span>
                                         </div>
                                     </div>
                                 </div>
                                 <span>
                                     Country Rank: 882 / 98542
                                 </span>
-                                <div class="profiles" style="text-align: center;">
-                                    <img src="Images/Codeforces_graph.png" class="image" alt="Codeforces_graph.png" height="200px" width="340px" style="box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.6), 0 0 1rem rgba(0, 0, 0, 0.6); border-radius: 5px;">
-                                    <div class="middle">
+                                <div class="profiles " style="text-align: center; ">
+                                    <img src="Images/Codeforces_graph.png " class="image " alt="Codeforces_graph.png " height="200px " width="340px " style="box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.6), 0 0 1rem rgba(0, 0, 0, 0.6); border-radius: 5px; ">
+                                    <div class="middle ">
                                         <br><br><br>
-                                        <h2 style="color: blue; text-shadow: 1px 1px 1px #fff;">Pratims10</h2>
+                                        <h2 style="color: blue; text-shadow: 1px 1px 1px #fff; ">Pratims10</h2>
                                         <br>
-                                        <h5 style="color: blue; text-shadow: 1px 1px 1px #fff;">Expert</h5>
+                                        <h5 style="color: blue; text-shadow: 1px 1px 1px #fff; ">Expert</h5>
                                     </div>
                                     <br>
                                     <br>
-                                    <div class="progress" style="width:90%; margin-left: 5%; height: 24px; border-radius: 12px;">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:99%;
-                                        border: 4px solid white; border-radius: 12px 0px 0px 12px; height: 24px">
+                                    <div class="progress " style="width:90%; margin-left: 5%; height: 24px; border-radius: 12px; ">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning " style="width:99%; border: 4px solid white; border-radius: 12px 0px 0px 12px; height: 24px ">
                                             <span>Ranked top 99 percentile in India</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="cp1" style="text-align: center;">
-                                <img src="Images/atcoder_logo.png" alt="Atcoder_logo.png " height="85px">
-                                <div class="container" style="max-width: 100%;">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-6 col-sm-12">
-                                            <span>Profile: <a href="https://atcoder.jp/users/pratims10" target="_blank">pratims10</a></span>
+                        <div class="col-lg-4 ">
+                            <div class="cp1" style="text-align: center;" data-aos="fade-up">
+                                <img src="Images/atcoder_logo.png " alt="Atcoder_logo.png " height="85px ">
+                                <div class="container " style="max-width: 100%; ">
+                                    <div class="row ">
+                                        <div class="col-lg-12 col-md-6 col-sm-12 ">
+                                            <span>Profile: <a href="https://atcoder.jp/users/pratims10 " target="_blank ">pratims10</a></span>
                                         </div>
-                                        <div class="col-lg-12 col-md-6 col-sm-12">
-                                            <span>Highest Rating: <span style="color: #00C0C0;">4 Kyu (1386)</span></span>
+                                        <div class="col-lg-12 col-md-6 col-sm-12 ">
+                                            <span>Highest Rating: <span style="color: #00C0C0; ">4 Kyu (1386)</span></span>
                                         </div>
                                     </div>
                                 </div>
                                 <span>
                                     Country Rank: 436 / 13801
                                 </span>
-                                <div class="profiles" style="text-align: center;">
-                                    <img src="Images/Atcoder_graph.png" class="image" alt="Atcoder_graph.png" height="200px" width="340px" style="box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.6), 0 0 1rem rgba(0, 0, 0, 0.6); border-radius: 5px;">
-                                    <div class="middle">
+                                <div class="profiles " style="text-align: center; ">
+                                    <img src="Images/Atcoder_graph.png " class="image " alt="Atcoder_graph.png " height="200px " width="340px " style="box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.6), 0 0 1rem rgba(0, 0, 0, 0.6); border-radius: 5px; ">
+                                    <div class="middle ">
                                         <br><br><br>
-                                        <h2 style="color: #00C0C0;">pratims10</h2>
+                                        <h2 style="color: #00C0C0; ">pratims10</h2>
                                         <br>
-                                        <h4 style="color: black;">4 Kyu</h4>
+                                        <h4 style="color: black; ">4 Kyu</h4>
                                     </div>
                                     <br>
                                     <br>
-                                    <div class="progress" style="width:90%; margin-left: 5%; height: 24px; border-radius: 12px;">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:97%;
-                                        border: 4px solid white; border-radius: 12px 0px 0px 12px; height: 24px">
+                                    <div class="progress " style="width:90%; margin-left: 5%; height: 24px; border-radius: 12px; ">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning " style="width:97%; border: 4px solid white; border-radius: 12px 0px 0px 12px; height: 24px ">
                                             <span>Ranked top 97 percentile in India</span>
                                         </div>
                                     </div>
@@ -406,16 +406,16 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="container" style="max-width: 85%;">
-                    <div class="row">
-                        <div class="col-lg-6" style="text-align: left;">
+                <div class="container " style="max-width: 85%;">
+                    <div class="row ">
+                        <div class="col-lg-6 " style="text-align: left;" data-aos="zoom-in">
                             <h2>Google Kickstart</h2>
 
                             <h5>About KickStart</h5>
-                            <span style="color: rgb(198, 219, 188);">Kick Start is a global online coding competition, consisting of three-hour rounds of a variety of algorithmic challenges organised by Google.</span>
+                            <span style="color: rgb(198, 219, 188); ">KickStart is a global online coding competition, consisting of three-hour rounds of a variety of algorithmic challenges organised by Google.</span>
                             <br><br>
                             <h5>My Performance</h5>
-                            <span style="color: rgb(198, 219, 188);"> I participated in all the rounds of Google Kick start in 2020. Some of my ranks are :
+                            <span style="color: rgb(198, 219, 188); "> I participated in all the rounds of Google Kick start in 2020. Some of my ranks are :
                             <br>
                             <ul>
                                 <li>Global rank of 263(Country Rank-78) out of 6200+ participants in Google Kickstart Round F 2020.</li>
@@ -424,8 +424,8 @@
                             </ul>
                             </span>
                         </div>
-                        <div class="col-lg-6">
-                            <img src="Images/Kickstart.png" alt="Kickstart.png" width="100%">
+                        <div class="col-lg-6" data-aos="zoom-in">
+                            <img src="Images/Kickstart.png " alt="Kickstart.png " width="100%">
                         </div>
                     </div>
                 </div>
@@ -436,25 +436,25 @@
 
             <!--EXPERIENCE SECTION-->
             <div>
-                <div id="experience" style="height: 100px;">
+                <div id="experience" style="height: 100px; ">
                 </div>
                 <div style="text-align: center; color: white ">
                     <span class="content2 " style="border: 2px solid white; border-radius: 6px; padding: 8px 25px; font-size: 35px; ">
                     MY EXPERIENCE</span>
                 </div>
                 <br>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-12" style="text-align: left;">
-                            <h2 style="color: rgb(12, 204, 204);">Internship Experience</h2>
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-xs-12 col-md-12 " style="text-align: left; ">
+                            <h2 style="color: rgb(12, 204, 204); ">Internship Experience</h2>
                         </div>
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="Images/gfg_logo.png" alt="gfg_logo.png" height="100px" style="max-width: 100%; max-height: 100%;">
+                    <div class="row" data-aos="flip-left">
+                        <div class="col-md-2 ">
+                            <img src="Images/gfg_logo.png " alt="gfg_logo.png " height="100px " style="max-width: 100%; max-height: 100%; ">
                         </div>
-                        <div class="col-md-10" style="text-align: left;">
+                        <div class="col-md-10 " style="text-align: left; ">
                             <h4>GeeksForGeeks</h4>
                             <p><i>Technical Content Writer Intern (Aug 2019 - Jan 2020)</i></p>
                             <ul>
@@ -463,17 +463,17 @@
                                 </li>
                                 <li>
                                     Written problem statements, test cases, explanations and C++ code snippets in all the articles.
-                                    <a href="https://auth.geeksforgeeks.org/user/pratims10/articles">My articles</a>
+                                    <a href="https://auth.geeksforgeeks.org/user/pratims10/articles ">My articles</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="Images/hyf_logo.png" alt="hyf_logo.png" height="100px">
+                    <div class="row " data-aos="flip-right">
+                        <div class="col-md-2 ">
+                            <img src="Images/hyf_logo.png " alt="hyf_logo.png " height="100px ">
                         </div>
-                        <div class="col-md-10" style="text-align: left;">
+                        <div class="col-md-10 " style="text-align: left; ">
                             <h4>Himalayan Yeti Foundation</h4>
                             <p><i>Web Developer Intern (Aug 2019 - Oct 2020)</i></p>
                             <ul>
@@ -485,16 +485,16 @@
                     </div>
                     <br><br>
                     <div class="row">
-                        <div class="col-xs-12 col-md-12" style="text-align: left;">
-                            <h2 style="color: rgb(12, 204, 204);">Volunteer Experience</h2>
+                        <div class="col-xs-12 col-md-12 " style="text-align: left; ">
+                            <h2 style="color: rgb(12, 204, 204); ">Volunteer Experience</h2>
                         </div>
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="Images/keygen.jpg" alt="Keygencoders_logo.png" height="100px" style="border: 1px solid white; max-width: 100%; max-height: 100%;">
+                    <div class="row" data-aos="flip-left">
+                        <div class="col-md-2 ">
+                            <img src="Images/keygen.jpg " alt="Keygencoders_logo.png " height="100px " style="border: 1px solid white; max-width: 100%; max-height: 100%; ">
                         </div>
-                        <div class="col-md-10" style="text-align: left;">
+                        <div class="col-md-10 " style="text-align: left; ">
                             <h4>KeygenCoders</h4>
                             <ul>
                                 <li>Member of KeyGEnCoders (the coding club of my college and Codechef campus chapter)</li>
@@ -508,29 +508,29 @@
             <!--END OF EXPERIENCE SECTION-->
 
             <!--PROJECTS SECTION-->
-            <div class="education_main">
-                <div id="projects" style="height: 100px;"></div>
+            <div class="education_main ">
+                <div id="projects" style="height: 100px; "></div>
                 <div style="text-align: center; color: white ">
                     <span class="content2 " style="border: 2px solid white; border-radius: 6px; padding: 8px 25px; font-size: 35px; ">
                     MY PROJECTS</span>
                 </div>
                 <br>
-                <div class="container">
-                    <div class="row" style="color: white;">
-                        <div class="col-md-6">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 cp1">
+                <div class="container ">
+                    <div class="row " style="color: white; ">
+                        <div class="col-md-6 ">
+                            <div class="container ">
+                                <div class="row ">
+                                    <div class="col-12 cp1 " data-aos="zoom-in-right">
                                         <br>
                                         <h3>Searching & Sorting Visualizer</h3>
-                                        <img src="Images/Sorting.png" alt="Sorting.png" style="max-width: 95%;border-radius: 6px;">
+                                        <img src="Images/Sorting.png " alt="Sorting.png " style="max-width: 95%;border-radius: 6px; ">
                                         <br><br>
-                                        <div class="heading1" style="margin-left: 7%; text-align: left;">
+                                        <div class="heading1 " style="margin-left: 7%; text-align: left; ">
                                             <span>CSS</span> &nbsp;
                                             <span>JavaScript</span> &nbsp;
                                             <span>ReactJS</span> &nbsp;
                                         </div>
-                                        <ul style="text-align: left; text-align: left;" class="description">
+                                        <ul style="text-align: left; text-align: left; " class="description ">
                                             <li>Application for visualizing searching & sorting algorithms using animations on random data and user chosen animation speed.</li>
                                             <li>Implemented Linear & Binary Search, Bubble Sort, Selection Sort, Insertion Sort, Merge Sort & Quick Sort.</li>
                                         </ul>
@@ -538,22 +538,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 cp1">
+                        <div class="col-md-6 ">
+                            <div class="container ">
+                                <div class="row ">
+                                    <div class="col-12 cp1" data-aos="zoom-in-left">
                                         <br>
                                         <h3>Graph Algorithm Visualizer</h3>
-                                        <img src="Images/graph.png" alt="graph.png" style="max-width: 95%;border-radius: 6px;">
+                                        <img src="Images/graph.png " alt="graph.png " style="max-width: 95%;border-radius: 6px; ">
                                         <br><br>
-                                        <div class="heading1" style="margin-left: 7%; text-align: left;">
+                                        <div class="heading1 " style="margin-left: 7%; text-align: left; ">
                                             <span>HTML5</span> &nbsp;
                                             <span>SVG</span> &nbsp;
                                             <span>CSS</span> &nbsp;
                                             <span>JavaScript</span> &nbsp;
                                             <span>ReactJS</span> &nbsp;
                                         </div>
-                                        <ul style="text-align: left;" class="description">
+                                        <ul style="text-align: left; " class="description ">
                                             <li>Application to draw graphs by plotting and connecting points and visualize various graph algorithms.</li>
                                             <li> BFS, DFS, Dijkstra’s shortest path algorithm, Prim’s algorithm and Kruskal’s Minimal Spanning Tree algorithm.</li>
                                         </ul>
@@ -565,16 +565,16 @@
 
                     <!--NEXT 2 PROJECTS-->
                     <br><br>
-                    <div class="row" style="color: white;">
-                        <div class="col-md-6">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 cp1">
+                    <div class="row " style="color: white; ">
+                        <div class="col-md-6 ">
+                            <div class="container ">
+                                <div class="row ">
+                                    <div class="col-12 cp1 " data-aos="zoom-in-right">
                                         <br>
                                         <h3>Inquizitor</h3>
-                                        <img src="Images/Inquizitor.png" alt="Inquizitor.png" style="max-width: 95%;border-radius: 6px;">
+                                        <img src="Images/Inquizitor.png " alt="Inquizitor.png " style="max-width: 95%;border-radius: 6px; ">
                                         <br><br>
-                                        <div class="heading1" style="margin-left: 7%; text-align: left;">
+                                        <div class="heading1 " style="margin-left: 7%; text-align: left;">
                                             <span>HTML</span> &nbsp;
                                             <span>CSS</span> &nbsp;
                                             <span>Javascript</span> &nbsp;
@@ -582,7 +582,7 @@
                                             <span>C#</span> &nbsp;
                                             <span>SQL Server</span> &nbsp;
                                         </div>
-                                        <ul style="text-align: left;" class="description">
+                                        <ul style="text-align: left; " class="description ">
                                             <li>An educational discussion forum for students to discuss on various topics and exchange ideas.</li>
                                             <li>Includes features like text-to-speech for reading out answers, notifications, searching, question tags, number of views, likes & dislikes on answers and profile pages.</li>
                                         </ul>
@@ -590,22 +590,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 cp1">
+                        <div class="col-md-6 ">
+                            <div class="container ">
+                                <div class="row ">
+                                    <div class="col-12 cp1" data-aos="zoom-in-left">
                                         <br>
                                         <h3>Codeforces Rating Comparator</h3>
-                                        <img src="Images/API.png" alt="API.png" style="max-width: 95%;border-radius: 6px;">
+                                        <img src="Images/API.png " alt="API.png " style="max-width: 95%;border-radius: 6px; ">
                                         <br><br>
-                                        <div class="heading1" style="margin-left: 7%; text-align: left;">
+                                        <div class="heading1 " style="margin-left: 7%; text-align: left; ">
                                             <span>HTML</span> &nbsp;
                                             <span>CSS</span> &nbsp;
                                             <span>Javascript</span> &nbsp;
                                             <span>API</span> &nbsp;
                                             <span>JSON</span>
                                         </div>
-                                        <ul style="text-align: left;" class="description">
+                                        <ul style="text-align: left; " class="description ">
                                             <li>A web application using the CodeForces API to compare ratings of 2 users.</li>
                                             <li>Also displays a bar graph by interpreting the JSON data returned from the server upon request. </li>
                                             <br>
@@ -623,56 +623,63 @@
             <!--END OF PROJECTS SECTION-->
 
             <!--CONTACT ME-->
-            <div id="contact_main">
-                <div id="contact" style="height: 100px;"></div>
+            <div id="contact_main ">
+                <div id="contact" style="height: 100px; "></div>
                 <div style="text-align: center; color: white ">
                     <span class="content2 " style="border: 2px solid white; border-radius: 6px; padding: 8px 25px; font-size: 35px; ">
                     CONTACT ME</span>
                 </div>
                 <br>
                 <!--Taken from https://codepen.io/chris__sev/pen/IdGKH -->
-                <div class="container_form cp1">
-                    <br>
-                    <form>
-                        <div class="group">
-                            <input type="text" id="name" required onchange="namechange()">
-                            <span class="highlight"></span>
-                            <span class="bar"></span>
-                            <label id="namelabel">Name</label>
-                        </div>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-3 col-sm-1 "></div>
+                        <div class="col-lg-6 col-sm-10 ">
+                            <div class="container_form cp1 " data-aos="fade-up">
+                                <br>
+                                <form>
+                                    <div class="group ">
+                                        <input type="text " id="name " required onchange="namechange() ">
+                                        <span class="highlight "></span>
+                                        <span class="bar "></span>
+                                        <label id="namelabel ">Name</label>
+                                    </div>
 
-                        <div class="group">
-                            <input type="email" id="email" required onchange="emailchange()">
-                            <span class="highlight"></span>
-                            <span class="bar"></span>
-                            <label id='emaillabel'>Email</label>
-                        </div>
+                                    <div class="group ">
+                                        <input type="email " id="email " required onchange="emailchange() ">
+                                        <span class="highlight "></span>
+                                        <span class="bar "></span>
+                                        <label id='emaillabel'>Email</label>
+                                    </div>
 
-                        <div class="group">
-                            <input type="text" id="subject" required onchange="subjectchange()">
-                            <span class="highlight"></span>
-                            <span class="bar"></span>
-                            <label id="subjectlabel">Subject</label>
-                        </div>
+                                    <div class="group ">
+                                        <input type="text " id="subject " required onchange="subjectchange() ">
+                                        <span class="highlight "></span>
+                                        <span class="bar "></span>
+                                        <label id="subjectlabel ">Subject</label>
+                                    </div>
 
-                        <div class="group">
-                            <textarea id="message" style="background: none; min-height: 80px;" onchange="messagechange()" required></textarea>
-                            <span class="highlight"></span>
-                            <span class="bar"></span>
-                            <label id="messagelabel">Message</label>
-                        </div>
+                                    <div class="group ">
+                                        <textarea id="message " style="background: none; min-height: 80px; " onchange="messagechange() " required></textarea>
+                                        <span class="highlight "></span>
+                                        <span class="bar "></span>
+                                        <label id="messagelabel ">Message</label>
+                                    </div>
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-6">
-                                    <input type="submit" value="Send Message" style="background: green; width: 150px;">
-                                </div>
-                                <div class="col-6">
-                                    <input type="reset" value="Reset" style="background: green; width: 150px;">
-                                </div>
+                                    <div class="container ">
+                                        <div class="row ">
+                                            <div class="col-6 ">
+                                                <input type="submit " value="Send Message" style="background: green; width: 150px; text-align: center;" onclick="sendmail() ">
+                                            </div>
+                                            <div class="col-6 ">
+                                                <input type="reset " value="Reset " style="background: green; width: 150px; text-align: center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
     </main>
